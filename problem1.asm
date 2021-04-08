@@ -11,7 +11,7 @@
 .ORIG x3000
 
     LEA R0, STR1
-    LEA R1, STR1
+    LEA R1, STR2
     JSR STRCMP
     ADD R0, R0, #0      ; test return value
     BRz EQUAL
